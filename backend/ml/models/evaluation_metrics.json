@@ -1,0 +1,73 @@
+{
+  "model_name": "RandomForestClassifier",
+  "version": "1.0.0",
+  "dataset_origin": "Drebin / CICAndMal2017 Verified Security Feature Matrix",
+  "trained_at": "2026-11-03T10:18:12.405700+00:00",
+  "feature_count": 26,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        40,
+        0
+      ],
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  "all_models_evaluated": {
+    "RandomForestClassifier": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          40,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    "DecisionTreeClassifier": {
+      "accuracy": 0.9875,
+      "precision": 1.0,
+      "recall": 0.975,
+      "f1_score": 0.9873,
+      "confusion_matrix": [
+        [
+          40,
+          0
+        ],
+        [
+          1,
+          39
+        ]
+      ]
+    },
+    "LogisticRegression": {
+      "accuracy": 0.9875,
+      "precision": 1.0,
+      "recall": 0.975,
+      "f1_score": 0.9873,
+      "confusion_matrix": [
+        [
+          40,
+          0
+        ],
+        [
+          1,
+          39
+        ]
+      ]
+    }
+  }
+}
